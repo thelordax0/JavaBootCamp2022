@@ -1,7 +1,22 @@
 package classesWithAttributes;
 
 public class Product {
-
+	//Constructor bloğu class new edildiğinde çalışır.
+	public Product(int id,String name,String description,double price,int stockAmount) {
+		System.out.println("yapıcı blok çalıştı");
+		//Set
+		this.id=id;
+		this.name=name;
+		this.description=description;
+		this.price=price;
+		this.stockAmount=stockAmount;
+	}
+	
+	public Product() {
+		
+	}
+	
+	
 //Field alanında classlr attributes özellikler tutar
 	// product class ı hem ttribute tutupp hem operasyon tutmamalıdır single
 	// responsibility
