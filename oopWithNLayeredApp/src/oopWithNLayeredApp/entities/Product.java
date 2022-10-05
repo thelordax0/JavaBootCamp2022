@@ -1,7 +1,7 @@
 package oopWithNLayeredApp.entities;
 
 public class Product {
-	private String id;
+	private int id;
 	private String name;
 	private double unitPrice;
 	
@@ -13,7 +13,7 @@ public class Product {
 
 
 
-	public Product(String id, String name, double unitPrice) {
+	public Product(int id, String name, double unitPrice) {
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
@@ -21,13 +21,13 @@ public class Product {
 
 
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
 
 
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
